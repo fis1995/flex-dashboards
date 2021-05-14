@@ -25,7 +25,7 @@ Row
     
 ### Cost-Burdened Households with Children in San Francisco
 
-This map shows the proportion of households with children that spend more than 30% of their income on housing costs by Public Use Micro Area (PUMA).  For more information on each of these maps, visit this [page](https://fis1995.github.io/francinestephens.github.io/A6_landuse_SF.html).
+This map shows the proportion of households with children that spend more than 30% of their income on housing costs by Public Use Micro Area (PUMA).  For more information on each of these maps, visit this [page](https://francine-stephens.github.io/francinestephens.github.io/A6_landuse_SF.html).
 
 ```{r}
 sf_burden_pumas_plot %>% setView(-122.436057, 37.756865, zoom = 11)
@@ -35,7 +35,7 @@ sf_burden_pumas_plot %>% setView(-122.436057, 37.756865, zoom = 11)
 
 ### Total Housing Cost Burden   
 
-Total housing cost burden reflects the total amount of the housing cost above the 30% threshold for all of those households combined within a given PUMA.
+Total housing cost burden reflects the total amount of the housing cost above the 30% threshold for all of those households combined within a given PUMA. Bayview/Hunters Point has both a high cost burden and housing cost.
 
 ```{r}
 sf_burden_cost_plot %>% setView(-122.436057, 37.756865, zoom = 11)
